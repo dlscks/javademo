@@ -4,7 +4,7 @@ package java004_array;
  * 변수: 하나의 값을 저장하기 위한 메모리 공간
  * 배열: 서로 관련이 있는 데이터 타입이 같은 데이터의 집합
  */
-public class Java_037_array {
+public class Java037_array {
 
 	public static void main(String[] args) {
 		int ko = 90;
