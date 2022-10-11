@@ -13,8 +13,17 @@ public class Prob003_method {
 	public static char[] process(char[] data) {
 		// data배열의 요소가 '_'이면 ' '으로 변경후 리턴하는
 		// 프로그램을 구현하시오.
-		
-		return null;
+//		for (int i = 0; i < data.length; i++) {
+//			if (data[i] == '_') {
+//				data[i] = ' ';
+//			}
+//		}
+//		return data;
+		String test = new String(data);
+//		test.replace('_', ' ');
+//		return test.toCharArray();
+		String retunTest = test.replace('_', ' ');
+		return retunTest.toCharArray();
 	}// end process()
 
 }// end class
