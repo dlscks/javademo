@@ -55,6 +55,7 @@ public class Java052_method {
 	 * main스레드가 main( )메소드를 호출한다.
 	 * 
 	 * JVM은 운영체재에 특화된 코드로 변환하여 실행한다. 즉 자바 프로그램 실행환경을 만들어 주는 소프트웨어이다.
+	 * JVM은 운영체제에서 할당받은 메모리 영역을 메소드 영역, 힙 영역, 스택 영역으로 구분해서 사용
 	 */
 
 	public static void main(String[] args) { //1
