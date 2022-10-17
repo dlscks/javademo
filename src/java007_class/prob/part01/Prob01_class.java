@@ -22,8 +22,9 @@ public class Prob01_class {
 
 		// 여기에 구현하세요/////////////////
 		for(int i = 0; i<me.length; i++) {
+			me[i].prn();
 			
-			System.out.println(me[i].toString());
+		
 		}
 		
 		//////////////////////////
