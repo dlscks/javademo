@@ -6,7 +6,7 @@ public class Java122_String {
 		System.out.print("35276은");
 		prnDisplay(numCheck("35276"));
 		
-		System.out.println("2_8a은 ");
+		System.out.println("2_8a은");
 		prnDisplay(numCheck("2_8a"));
 	}
 	
