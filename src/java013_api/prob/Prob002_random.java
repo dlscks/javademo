@@ -40,13 +40,17 @@ public class Prob002_random {
 
 	private static void printUniqueNumber(int[] array) {
 		// array배열에서 중복되지 않은 유일한 숫자만을 출력하는 프로그램을 구현하시오.		
-//		int[] array = new int[7];
-		for(int j = 0; j<array.length;j++) {
-			if(array[j] == array[j]) {
-				j--;
+		boolean chk = false;
+		for(int i = 0; i<array.length;i++) {
+		 chk=false;
+		 for(int j=0; j<array.length;j++) {
+			 if(i!=j && array[i]==array[j]) {
+				 chk=true;
+			 }
 				break;
 			}
-			
+			if(chk==false)
+				System.out.printf("%5d",array[i]);
 		}
 			
 

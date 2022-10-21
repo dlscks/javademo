@@ -1,5 +1,7 @@
 package java014_api.prob;
 
+import java.util.Calendar;
+
 /*
  * [출력결과]
  * <4시부터 12시 미만일때>
@@ -21,7 +23,8 @@ package java014_api.prob;
 
 public class Prob003_Calendar {
 	public static void main(String[] args) {
-		
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal.toString());;
 			
 	}//end main()
 }//end class

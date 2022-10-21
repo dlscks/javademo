@@ -26,8 +26,12 @@ public class Prob003_random {
 
 	private static int[] makeArray() {
 		// 난수값를 발생시킨후 반환하는 프로그램을 구현하시오.
+		int[] arr = new int[10];
+		Random ran = new Random();
 		
-		return null;
+		for(int i = 0; i < arr.length; i++)
+			arr[i] = ran.nextInt(19) +2;
+		return arr;
 	}// end makeArray()
 
 	public static void primeNumber(int[] array) {
