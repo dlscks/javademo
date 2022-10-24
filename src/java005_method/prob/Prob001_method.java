@@ -28,9 +28,15 @@ public class Prob001_method {
 
 	public static int[] mergeArray(int[] array1, int[] array2) {
 		// 여기에서 구현하세요.
-		 		
+		 int[] data = new int [array1.length + array2.length];
+		 for(int i=0; i<data.length;i++) {
+			 if(i<array1.length)
+				 data[i]=array1[i];
+			 else
+				 data[i] =array2[i - array1.length];
+		 }
 		
-		return null;
+		return data;
 	}// end mergeArry()
 
 }// end class
