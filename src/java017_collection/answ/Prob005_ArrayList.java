@@ -33,7 +33,7 @@ public class Prob005_ArrayList {
       */
 		
 		try {
-			Scanner  sc=new Scanner(new File(".\\src\\java0412_collection\\answ\\tv.txt"));
+			Scanner  sc=new Scanner(new File(".\\src\\java017_collection\\answ\\tv.txt"));
 			
 			while(sc.hasNext()){
 				String line=sc.nextLine();

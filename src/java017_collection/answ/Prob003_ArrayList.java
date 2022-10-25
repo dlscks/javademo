@@ -63,13 +63,18 @@ public class Prob003_ArrayList {
 	
 	private static void prnDisplay(ArrayList<SmartPhone> phoneList){
 		//phoneList매개변수의 저장된 값을 출력하는 프로그램을 구현하시오.
-		for (int i = 0; i < phoneList.size(); i++) {
-			System.out.printf("\n<< %d 번째 상품 >>\n", i + 1);
-			System.out.println("제품 아이디 : " + phoneList.get(i).getProductId());
-			System.out.println("제품명 : " + phoneList.get(i).getName());
-			System.out.println("가격 : " + phoneList.get(i).getPrice());
-			System.out.println("수량 : " + phoneList.get(i).getAmount());
-			System.out.println("제조사 : " + phoneList.get(i).getMaker());
+//		for (int i = 0; i < phoneList.size(); i++) {
+//			System.out.printf("\n<< %d 번째 상품 >>\n", i + 1);
+//			System.out.println("제품 아이디 : " + phoneList.get(i).getProductId());
+//			System.out.println("제품명 : " + phoneList.get(i).getName());
+//			System.out.println("가격 : " + phoneList.get(i).getPrice());
+//			System.out.println("수량 : " + phoneList.get(i).getAmount());
+//			System.out.println("제조사 : " + phoneList.get(i).getMaker());
+//		}
+		
+		for(int i = 0; i<phoneList.size(); i++) {
+			SmartPhone sp = phoneList.get(i);
+			System.out.printf("제품 아이디 : %s\n", sp.getProductId());
 		}
 
 	}//end prnDisplay( )
