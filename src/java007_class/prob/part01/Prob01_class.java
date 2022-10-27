@@ -23,9 +23,12 @@ public class Prob01_class {
 		// 여기에 구현하세요/////////////////
 		for(int i = 0; i<me.length; i++) {
 			me[i].prn();
+			sum+=me[i].countMoney();
+					
 			
 		
 		}
+		System.out.printf("총합계 :%d" ,sum);
 		
 		//////////////////////////
 
