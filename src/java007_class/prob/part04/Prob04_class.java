@@ -21,7 +21,17 @@ public class Prob04_class {
 		
 		public static void display(BookShop[] shop){
 	      //code별 가격 합계를 구하는 프로그램을 구현하시오.
-			
+			int sumx = 0;
+			int sumy= 0;
+			for (int i = 0; i<shop.length;i++) {
+				if(shop[0].code == shop[i].code) {
+					sumx += shop[i].price;
+				}else {
+					sumy +=shop[i].price;
+				}
+			}
+			System.out.println("컴퓨터" + sumx);
+			System.out.println("소설" + sumy);
 			
 			
 		}//end display()
